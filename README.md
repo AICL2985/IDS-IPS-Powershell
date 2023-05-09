@@ -1,7 +1,9 @@
 # IDS-IPS-Powershell
 
 This PowerShell script is an important tool for managing and mitigating vulnerabilities in a cybersecurity project. The script monitors a list of commonly targeted ports, such as ports 21, 22, 23, 25, 80, 110, 143, 443, 445, 1433, 1521, 3306, 3389, 5432, and 5900, for any incoming connections. If an intrusion attempt is detected on any of these ports, the script alerts the user and blocks the port using a firewall rule.
+
 These ports are often targeted by attackers as they are commonly used for various services, such as FTP, SSH, Telnet, SMTP, HTTP, HTTPS, and RDP. Attackers can exploit vulnerabilities in these services to gain unauthorized access to a system or network. For example, an attacker can use an FTP server to upload malicious files or steal sensitive data, or use an RDP server to gain remote access to a system.
+
 By monitoring these ports and blocking any unauthorized access attempts, this script helps to mitigate the risk of successful attacks. It provides a simple and effective solution for intrusion detection and prevention, which can be easily integrated into a larger cybersecurity project.
 
 
